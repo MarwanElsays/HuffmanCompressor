@@ -2,15 +2,6 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/*
-
-I acknowledge that I am aware of the academic integrity guidelines of this
- course, and that I worked on this assignment independently without any
- unauthorized help
-
- Marwan Mostafa Abdelkader Mohammed   20011867
-
- */
 
 public class Main {
 
