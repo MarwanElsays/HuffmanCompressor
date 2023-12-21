@@ -2,6 +2,16 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/*
+
+I acknowledge that I am aware of the academic integrity guidelines of this
+ course, and that I worked on this assignment independently without any
+ unauthorized help
+
+ Marwan Mostafa Abdelkader Mohammed   20011867
+
+ */
+
 public class Main {
 
     HuffmanCompresser huffmanCompresser = new HuffmanCompresser();
@@ -28,9 +38,17 @@ public class Main {
 
             String outputFilePath = obj.getOutputPath(inputFilePath,opType,n);
             if ( "c".equals(opType)) {
+                long startTime = System.currentTimeMillis();
                 obj.huffmanCompresser.DoCompression(inputFilePath,outputFilePath,n);
+                long endTime = System.currentTimeMillis();
+                long elapsedTimeMillis = endTime - startTime;
+                System.out.println("Time Taken to Compress = " + elapsedTimeMillis + " ms");
             } else if ("d".equals(opType)) {
+                long startTime = System.currentTimeMillis();
                 obj.huffmanDecompresser.doDecompression(inputFilePath,outputFilePath);
+                long endTime = System.currentTimeMillis();
+                long elapsedTimeMillis = endTime - startTime;
+                System.out.println("Time Taken to Decompress = " + elapsedTimeMillis + " ms");
             } else {
                 System.out.println("Invalid Operation");
             }

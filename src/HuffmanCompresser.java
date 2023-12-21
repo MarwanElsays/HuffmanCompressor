@@ -38,7 +38,7 @@ public class HuffmanCompresser {
 
     public HashMap<String,Integer> getFrequency(byte[] fileBytes,int n){
 
-        System.out.println("File Size: " + fileBytes.length + " bytes");
+        System.out.println("Original file size = " + fileBytes.length + " Bytes");
         fileSize = fileBytes.length;
         if(fileBytes.length%n != 0){
             endOfFile = new String(fileBytes,fileBytes.length-fileBytes.length%n,fileBytes.length%n);
@@ -96,16 +96,16 @@ public class HuffmanCompresser {
 
             //encode the value then put it to the file
             String val = entry.getValue();
-            for(int i=0;i<val.length();i+=8){
-                String binaryString = val.substring(i,min(i+8,val.length()));
+            for(int i=0;i<val.length();i+=7){
+                String binaryString = val.substring(i,min(i+7,val.length()));
                 byte b = (byte) Integer.parseInt(binaryString, 2);
                 compressedMapByte.add(b);
             }
-            byte len = (byte) (val.length()%8); //length of the last byte
+            byte len = (byte) (val.length()%7); //length of the last byte
             compressedMapByte.add(len);
 
-            //Add a comma
-            compressedMapByte.add((byte)44);
+            //Add a special charcter to diff
+            compressedMapByte.add((byte)150);
         }
 
         byte[] mapBytesToFile = new byte[compressedMapByte.size()];
@@ -140,15 +140,31 @@ public class HuffmanCompresser {
         DataOutputStream dos = new DataOutputStream(new FileOutputStream(outputFilePath));
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(dos);
 
-        System.out.println("compressedMap Length:"+ compressedMap.length);
-        System.out.println("compressedFile length:"+bytesToFile.length);
+        // System.out.println(sequenceCode.toString());
+
+        //System.out.println("compressedMap Length:"+ compressedMap.length);
+        //System.out.println("compressedFile length:"+bytesToFile.length);
+
+        long compressedFileSize = 14 + compressedMap.length + bytesToFile.length + endOfFileLen;
+        System.out.println("Compressed file size = "+compressedFileSize + " Bytes");
+
+        double compressionRatio = (double) compressedFileSize/fileSize;
+        System.out.println("Compression ratio = " + compressionRatio);
+
 
 //        System.out.println("Map Before Saving");
-//        for(int i=0;i<compressedMap.length;i++) System.out.print((char)compressedMap[i]);
+//        for(int i=0;i<compressedMap.length;i++)
+//            System.out.print((char)compressedMap[i]);
 //        System.out.println();
 //        System.out.println("file Before Saving");
-//        for(int i=0;i<bytesToFile.length;i++) System.out.print((char)bytesToFile[i]);
-
+//        for(int i=0;i<bytesToFile.length;i++)
+//            System.out.print((char)bytesToFile[i]);
+//        for(int i=0;i<endOfFile.getBytes().length;i++)
+//            System.out.print((char)endOfFile.getBytes()[i]);
+//
+//        System.out.println();
+//        System.out.println("--------------------------------------------------");
+//
         dos.writeInt(n);
         dos.writeInt(fileSize);
         dos.writeByte(compFileLastLen);
@@ -160,32 +176,35 @@ public class HuffmanCompresser {
 
         bufferedOutputStream.close();
 
-    /*
-        FileInputStream fis = new FileInputStream(outputFilePath);
-        DataInputStream dis = new DataInputStream(fis);
-        System.out.println();
-        int unCompN = dis.readInt();
-        System.out.println("unCompN:"+ unCompN);
 
-        byte unCompcompFileLastLen = dis.readByte();
-        System.out.println("CompcompFileLastLen:"+ unCompcompFileLastLen);
+//        FileInputStream fis = new FileInputStream(outputFilePath);
+//        DataInputStream dis = new DataInputStream(fis);
+//
+//        int unCompN = dis.readInt();
+//        System.out.println("n:"+ unCompN);
+//
+//        int fileSize = dis.readInt();
+//        System.out.println("fileSize:"+ fileSize);
+//
+//        byte unCompcompFileLastLen = dis.readByte();
+//        System.out.println("compFileLastLen:"+ unCompcompFileLastLen);
+//
+//        byte unCompendofFilelen = dis.readByte();
+//        System.out.println("endofFilelen:"+ unCompendofFilelen);
+//
+//        int unCompMapLength = dis.readInt();
+//        System.out.println("MapLength:"+ unCompMapLength);
+//
+//        byte[] mapRead = dis.readNBytes(unCompMapLength);
+//        byte[] file = dis.readAllBytes();
+//        System.out.println("Map after Saving");
+//        for(int i=0;i<mapRead.length;i++)
+//            System.out.print((char)mapRead[i]);
+//        System.out.println();
+//        System.out.println("file after Saving");
+//        for(int i=0;i<file.length;i++)
+//            System.out.print((char)file[i]);
 
-        byte unCompendofFilelen = dis.readByte();
-        System.out.println("unCompendofFilelen:"+ unCompendofFilelen);
-
-        int unCompMapLength = dis.readInt();
-        System.out.println("unCompMapLength:"+ unCompMapLength);
-
-        byte[] mapRead = dis.readNBytes(unCompMapLength);
-        byte[] file = dis.readAllBytes();
-        System.out.println("Map after Saving");
-        for(int i=0;i<mapRead.length;i++)
-            System.out.print((char)mapRead[i]);
-        System.out.println();
-        System.out.println("file after Saving");
-        for(int i=0;i<file.length;i++)
-            System.out.print((char)file[i]);
-     */
     }
 
     public void DoCompression(String inputFilePath,String outputFilePath,int n) throws IOException {
