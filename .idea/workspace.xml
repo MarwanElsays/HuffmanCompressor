@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c9ac3db-aa01-4dfb-a8a5-29698465f996" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuffmanZip.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuffmanCompresser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuffmanDecompresser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HuffmanNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="9c9ac3db-aa01-4dfb-a8a5-29698465f996" name="Changes" comment="Huffmaaan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuffmanCompresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanCompresser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HuffmanDecompresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanDecompresser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -45,13 +44,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "HuffmanWithList",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/MARWAN/Desktop/CSED/Computer Engineering Year 3/1st Semester/Algorithm/Labs/Lab2/HuffmanZip/src/Test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -66,35 +66,91 @@
       <recent name="C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gbbct10_d5">
+  <component name="RunManager" selected="Application.Lec_d1">
+    <configuration name="Lec_c1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\AlgorithmsLecture.pdf&quot; 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_c2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\AlgorithmsLecture.pdf&quot; 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_c3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\AlgorithmsLecture.pdf&quot; 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_c4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\AlgorithmsLecture.pdf&quot; 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_c5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\AlgorithmsLecture.pdf&quot; 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_d1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.1.AlgorithmsLecture.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_d2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.2.AlgorithmsLecture.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_d3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.3.AlgorithmsLecture.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_d4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.4.AlgorithmsLecture.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lec_d5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.5.AlgorithmsLecture.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="abc_c1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HuffmanZip" />
       <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\abc.txt&quot; 1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_c2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\abc.txt&quot; 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_c3" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\abc.txt&quot; 3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_c4" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\abc.txt&quot; 4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,30 +167,6 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HuffmanZip" />
       <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.1.abc.txt.hc&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_d2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.2.abc.txt.hc&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_d3" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.3.abc.txt.hc&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abc_d4" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HuffmanZip" />
-      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.4.abc.txt.hc&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,25 +268,29 @@
     </configuration>
     <list>
       <item itemvalue="Application.abc_c1" />
-      <item itemvalue="Application.abc_c2" />
-      <item itemvalue="Application.abc_c3" />
-      <item itemvalue="Application.abc_c4" />
       <item itemvalue="Application.abc_c5" />
       <item itemvalue="Application.gbbct10_c5" />
       <item itemvalue="Application.gbbct10_c4" />
       <item itemvalue="Application.gbbct10_c3" />
       <item itemvalue="Application.gbbct10_c2" />
       <item itemvalue="Application.gbbct10_c1" />
+      <item itemvalue="Application.Lec_c1" />
+      <item itemvalue="Application.Lec_c2" />
+      <item itemvalue="Application.Lec_c3" />
+      <item itemvalue="Application.Lec_c4" />
+      <item itemvalue="Application.Lec_c5" />
       <item itemvalue="Application.abc_d1" />
-      <item itemvalue="Application.abc_d2" />
-      <item itemvalue="Application.abc_d3" />
-      <item itemvalue="Application.abc_d4" />
       <item itemvalue="Application.abc_d5" />
       <item itemvalue="Application.gbbct10_d1" />
       <item itemvalue="Application.gbbct10_d2" />
       <item itemvalue="Application.gbbct10_d3" />
       <item itemvalue="Application.gbbct10_d4" />
       <item itemvalue="Application.gbbct10_d5" />
+      <item itemvalue="Application.Lec_d1" />
+      <item itemvalue="Application.Lec_d2" />
+      <item itemvalue="Application.Lec_d3" />
+      <item itemvalue="Application.Lec_d4" />
+      <item itemvalue="Application.Lec_d5" />
       <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
@@ -272,8 +308,17 @@
       <option name="presentableId" value="Default" />
       <updated>1703166259694</updated>
       <workItem from="1703166260685" duration="5916000" />
-      <workItem from="1703173285037" duration="2030000" />
+      <workItem from="1703173285037" duration="19286000" />
     </task>
+    <task id="LOCAL-00001" summary="Huffmaaan">
+      <option name="closed" value="true" />
+      <created>1703175735981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703175735981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,10 +329,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HuffmanWithList" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Huffmaaan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huffmaaan" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HuffmanDecompresser.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
