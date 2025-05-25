@@ -32,10 +32,10 @@ public class HuffmanDecompresser {
 
         // Read compressed data (excluding endOfFile bytes)
         int compressedDataLength = dis.available() - endOfFileLen;
-        byte[] compressedData = dis.readNBytes(compressedDataLength);
+        compressedData = dis.readNBytes(compressedDataLength);
 
         // Read endOfFile bytes if they exist
-        byte[] endOfFileBytes = endOfFileLen > 0 ? dis.readNBytes(endOfFileLen) : new byte[0];
+        endOfFileBytes = endOfFileLen > 0 ? dis.readNBytes(endOfFileLen) : new byte[0];
 
         dis.close();
 

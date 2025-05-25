@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c9ac3db-aa01-4dfb-a8a5-29698465f996" name="Changes" comment="Huffmaaan">
+    <list default="true" id="9c9ac3db-aa01-4dfb-a8a5-29698465f996" name="Changes" comment="Huffman enhanced">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HuffmanCompresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanCompresser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuffmanZip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HuffmanZip.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HuffmanDecompresser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanDecompresser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +34,22 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MarwanElsays&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MarwanElsays/HuffmanCompressor.git&quot;,
+    &quot;accountId&quot;: &quot;8c5fb174-a66a-48d9-873d-c4c1576aeb5e&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -39,25 +60,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "HuffmanWithList",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/MARWAN/Desktop/CSED/Computer Engineering Year 3/1st Semester/Algorithm/Labs/Lab2/HuffmanZip/src/Test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DDIA_Refc1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DDIA_Refd1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Info_c1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Info_d1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lec_d1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abc_c1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abc_d1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FasterHuffmanTry&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MARWAN/Desktop/CSED/Computer Engineering Year 3/1st Semester/Algorithm/Labs/Lab2/HuffmanZip/src/Test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test" />
@@ -66,7 +97,39 @@
       <recent name="C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec_d1">
+  <component name="RunManager" selected="Application.Info_d1">
+    <configuration name="DDIA_Ref_c1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\DDIA_Ref.pdf&quot; 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDIA_Ref_d1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.1.DDIA_Ref.pdf.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Info_c1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="c &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\test_3.xlsx&quot; 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Info_d1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HuffmanZip" />
+      <option name="PROGRAM_PARAMETERS" value="d &quot;C:\Users\MARWAN\Desktop\CSED\Computer Engineering Year 3\1st Semester\Algorithm\Labs\Lab2\HuffmanZip\src\Test\20011867.1.test_3.xlsx.hc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lec_c1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HuffmanZip" />
@@ -259,22 +322,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="HuffmanZip" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.abc_c1" />
       <item itemvalue="Application.abc_c5" />
+      <item itemvalue="Application.Info_c1" />
       <item itemvalue="Application.gbbct10_c5" />
       <item itemvalue="Application.gbbct10_c4" />
       <item itemvalue="Application.gbbct10_c3" />
       <item itemvalue="Application.gbbct10_c2" />
       <item itemvalue="Application.gbbct10_c1" />
       <item itemvalue="Application.Lec_c1" />
+      <item itemvalue="Application.DDIA_Ref_c1" />
       <item itemvalue="Application.Lec_c2" />
       <item itemvalue="Application.Lec_c3" />
       <item itemvalue="Application.Lec_c4" />
@@ -282,22 +340,18 @@
       <item itemvalue="Application.abc_d1" />
       <item itemvalue="Application.abc_d5" />
       <item itemvalue="Application.gbbct10_d1" />
+      <item itemvalue="Application.Info_d1" />
       <item itemvalue="Application.gbbct10_d2" />
       <item itemvalue="Application.gbbct10_d3" />
       <item itemvalue="Application.gbbct10_d4" />
       <item itemvalue="Application.gbbct10_d5" />
       <item itemvalue="Application.Lec_d1" />
+      <item itemvalue="Application.DDIA_Ref_d1" />
       <item itemvalue="Application.Lec_d2" />
       <item itemvalue="Application.Lec_d3" />
       <item itemvalue="Application.Lec_d4" />
       <item itemvalue="Application.Lec_d5" />
-      <item itemvalue="Application.test" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -318,7 +372,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703175735981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Huffman enhanced">
+      <option name="closed" value="true" />
+      <created>1748189691015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748189691015</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Huffman enhanced">
+      <option name="closed" value="true" />
+      <created>1748189729279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748189729279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +419,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Huffmaaan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Huffmaaan" />
+    <MESSAGE value="Huffman enhanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huffman enhanced" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,11 +429,6 @@
           <url>file://$PROJECT_DIR$/src/test.java</url>
           <line>75</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HuffmanDecompresser.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
