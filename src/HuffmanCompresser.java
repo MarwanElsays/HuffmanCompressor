@@ -8,7 +8,6 @@ import static java.lang.Math.ceil;
 import static java.lang.Math.min;
 
 /*
-n:window Size   int
 fileSize int
 compFileLastLen  // for 0's and 1's  byte
 endofFilelen    byte
@@ -16,7 +15,6 @@ MapSize       int
 CompressedMap
 File
 endOfFile  // trimmed from inputed file to make file length divisble by n
-
 */
 public class HuffmanCompresser {
 
@@ -145,7 +143,7 @@ public class HuffmanCompresser {
         //System.out.println("compressedMap Length:"+ compressedMap.length);
         //System.out.println("compressedFile length:"+bytesToFile.length);
 
-        long compressedFileSize = 14 + compressedMap.length + bytesToFile.length + endOfFileLen;
+        long compressedFileSize = 10 + compressedMap.length + bytesToFile.length + endOfFileLen;
         System.out.println("Compressed file size = "+compressedFileSize + " Bytes");
 
         double compressionRatio = (double) compressedFileSize/fileSize;
@@ -164,7 +162,6 @@ public class HuffmanCompresser {
 //        System.out.println();
 //        System.out.println("--------------------------------------------------");
 //
-        dos.writeInt(n);
         dos.writeInt(fileSize);
         dos.writeByte(compFileLastLen);
         dos.writeByte(endOfFileLen);

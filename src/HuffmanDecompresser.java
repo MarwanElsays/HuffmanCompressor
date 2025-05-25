@@ -6,7 +6,6 @@ import static java.lang.Math.min;
 public class HuffmanDecompresser {
 
     private final HashMap<ByteArrayWrapper, String> decompressedMap;
-    private int n;
     private int fileSize;
     private byte endOfFileLen;
     private byte compFileLastLen;
@@ -21,7 +20,6 @@ public class HuffmanDecompresser {
         DataInputStream dis = new DataInputStream(new BufferedInputStream(new FileInputStream(inputFilePath)));
 
         // Read header information
-        n = dis.readInt();
         fileSize = dis.readInt();
         compFileLastLen = dis.readByte();
         endOfFileLen = dis.readByte();
